@@ -12,6 +12,12 @@ body {
     height: 100%;
     background-color: #e3e3e3;
 }
+li{
+   list-style: none;
+}
+a{
+    text-decoration: none;
+}
 
 /*包裹块*/
 .bg-white {
@@ -34,6 +40,36 @@ body {
 /**
  * index.html
  */
+.topNav{ 
+    width: 100%;
+    height: 80px;
+    background: #522a5c;
+    position: relative;
+}
+.wrap{
+    width: 980px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+    }
+.wrap .myLogo{
+    display: block;
+    float: left;
+    font-size: 18px;
+    color: #fff;
+    height: 18px;
+    margin-top: 48px;
+}
+.wrap ul{
+    position:absolute;
+    float: right;
+    height: 20px;
+    right: 0;
+    bottom: 12px;}
+.wrap li{float: right;}
+.wrap li a{display:inline-block;font-size: 14px;padding: 0 14px;color: #fff;}
+.topNav .logo{position: absolute;right: 10px;bottom: 0;}
+
 .banner {
     width: auto;
     height: 600px;
@@ -150,6 +186,142 @@ body {
 /**
  * about.html
  */
+.about-container{
+	width:980px;
+	margin:80px auto 0;
+	position:relative;
+	height:1300px;
+}
+.about-container .left-box{
+	width:487px;
+	float:left;
+	background-color:#fff;
+	font-size:20px;
+	height:100%;
+	position:relative;
+}
+.about-container .right-box{
+	width:487px;
+	float:right;
+	background-color:#fff;
+	font-size:14px;
+	height:100%;
+	position:relative;
+}
+.position-img1{
+	position:absolute;
+	width:120px;
+	height:120px;
+	left:50%;
+	margin-left:-60px;
+	top:-30px;
+	border-radius:65px;
+	border:8px solid #e3e3e3;
+	z-index:2;
+}
+.img-100{
+	position:absolute;
+	width:100px;
+	height:100px;
+	left:50%;
+	margin-left:-50px;
+	border-radius:65px;
+	border:8px solid #e3e3e3;
+	z-index:2;
+}
+.position-img2{
+	top:220px;
+}
+.position-img3{
+	top:430px;
+}
+.position-img4{
+	top:800px;
+}
+.left-box .name{
+	top:120px;
+	position:absolute
+	;right:80px;
+}
+.right-box .intro{
+	top:120px;
+	position:absolute;
+	left:40px;
+	padding-right:100px;
+	text-indent:2em;
+}
+.left-box .contact{
+	position:absolute;
+	top:340px;
+	right:80px;
+}
+.right-box .contact{
+	position:absolute;
+	top:340px;
+	left:40px;
+	line-height:24px;
+}
+.left-box .education{
+	position:absolute;
+	top:560px;
+	right:80px;
+}
+.right-box .education{
+	position:absolute;
+	top:560px;
+	left:60px;
+}
+.education .school{
+	line-height:24px;
+}
+.education .a{
+	margin-top:40px;
+}
+.education .b{
+	margin-top:20px;
+}
+.left-box .internship{
+	position:absolute;
+	top:925px;
+	right:80px;
+}
+.right-box .internship{
+	position:absolute;
+	top:925px;
+	left:60px;
+	line-height:20px;
+}
+.internship .company{
+	margin-bottom:34px;
+}
+.center-num{
+    border: 5px solid #e3e3e3;
+    border-radius: 10px;
+    left: 50%;
+    line-height: 28px;
+    margin-left: -40px;
+    position: absolute;
+    text-align: center;
+    width: 80px;
+    z-index: 2;
+	background-color:#fff;
+}
+.edu_08{
+    top: 560px;
+}
+.edu_09{
+    top: 630px;
+}
+.edu_15{
+    top: 700px;
+}
+
+.int_14{
+    top: 925px;
+}
+.int_15{
+    top: 1000px;
+}
 
 /**
 *footer.css
