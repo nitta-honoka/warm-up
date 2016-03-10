@@ -112,7 +112,7 @@ body {
 .intro-container {
     width: 100%;
     background-color: #ffffff;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 .intro-container img {
     position: relative;
